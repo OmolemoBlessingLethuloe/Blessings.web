@@ -19,10 +19,6 @@ ul.navBar {
 	background-color: burlywood;
 	position: sticky;
 }
-li {
-	/* float: left; */
-	/* margin: 0 50px 0 100px; */
-}
 li a {
 	float: left;
 	display: block;
