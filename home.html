@@ -14,29 +14,26 @@
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fony-awesome.min.css"> -->
 </head>
 <body>
-	<header class="header" id="header"><center><img src="images/Blessings.jpg" alt="company logo" title="Blessings.inc" width="1000" height="128"></center></header>
+	<header class="header" id="header"><img src="images/Blessings.jpg" alt="company logo" title="Blessings.inc" width="1000" height="128"></header>
 	<br/>
-	<!-- search button on top -->
-	<form class="search" action="#">
-		<input type="text" placeholder="Search.." name="search">
-		<a href=""><button><i class="fa fa-search"></i></button></a>
-	</form><br/>
-	<!-- internal link -->
-	<a href="#footer">Jump to the buttom</a>
 	<!-- navigation links -->
-	<table class="table">
-		<tr>
-			<th><a href="home.html">Home</a></th>
-			<th><a href="shop-all.html">Shop All</a></th>
-			<th id="our-brand"><a href="our-brand.html">Our Brand</a></th>
-			<th><a href="our-craft.html">Our Craft</a></th>
-			<th><a href="contact-us.html">Contact Me</a></th>
-		</tr>
-	</table>
+		<ul class="navBar"> 
+			<li><a href="home.html">Home</a></li>
+			<li><a href="shop-all.html">Shop All</a></li>
+			<li id="our-brand"><a href="our-brand.html">Our Brand</a></li>
+			<li><a href="our-craft.html">Our Craft</a></li>
+			<li><a href="contact-us.html">Contact Me</a></li>
+			<li>
+				<form class="search-container">
+				  <input type="text" placeholder="Search.." name="search">
+				  <button type="submit"><i class="fa fa-search"></i></button>
+				</form>
+			</li>
+		</ul>
 	<!-- WRITING OVER IMAGE -->
 	<main>
-	<div class="container">
-	<img src="images/intro.png" alt="intro" width="1000" height="400" class="center">
+	<div class="containerMain">
+	<img src="images/intro.png" alt="intro" width="100%" height="450px" class="center">
 	<div class="centered">CUE THE COLOR
 	<br/><button class="button">SHOP THE COLLECTION</button></div>
 	</div>
@@ -46,13 +43,11 @@
 	<p class="large text-centered">----</p><br/>
 	<table class="table-best-sellers">
 		<tr>
-		<th><div class="container"><img src="images/best1.png" alt="best1" class="best-size">
-			<div class="viewmore"><a href="">View more</a></div>
-		</div></th>
-		<th><img src="best2.png" alt="best2" class="best-size"></th>
-		<th><img src="best3.png" alt="best3" class="best-size"></th>
-		<th><img src="best4.png" alt="best4" class="best-size"></th>
-		<th><img src="best5.png" alt="best5" class="best-size"></th>
+		<th><img src="images/best1.png" alt="best1" class="best-size"></th>
+		<th><img src="images/best2.png" alt="best2" class="best-size"></th>
+		<th><img src="images/best3.png" alt="best3" class="best-size"></th>
+		<th><img src="images/best4.png" alt="best4" class="best-size"></th>
+		<th><img src="images/best5.png" alt="best5" class="best-size"></th>
 		</tr>
 		<tr>
 			<td>Large Handbag - Light Pink</td>
@@ -93,7 +88,7 @@
 			<th><div class="container"><img src="images/handcrafted.png" alt="purseadd" width="350" height="350"><button class="button5 centered2">About our leather</button></div></th>
 		</tr>
 	</table>
-	<article class="article">
+	<article class="follow">
 	<p class="large text-centered spaced">FOLLOW</p>
 	<p class="large text-centered spaced">BLESSINGS ON INSTAGRAM</p>
 	<p class="large large text-centered spaced font">@Blessings</p>
@@ -122,7 +117,7 @@
 	<!-- internal links -->
 	<a href="#header">Jump to the top</a>
 	<section class="center">
-	<center><img src="images/Blessings.jpg" alt="company logo" title="Blessings.inc" width="1000" height="128" class="center"></center>
+	<img class="header" src="images/Blessings.jpg" alt="company logo" title="Blessings.inc" width="1000" height="128" class="center">
 	<table class="table center">
 	<tr>
 		<td><a href="home.html">Home</a></td>
@@ -144,16 +139,17 @@
 	</tr>
 	</table>
 	<!-- subsciption -->
-	<article class="a" id="center2">
-	<p class="large spaced text-centered">JOIN US!</p>
-	<form>
-		<input type="text" required placeholder="Email..">
-		<button type="submit" >Submit</button>
-	</form><br/><br/>
-	<!-- font awesome -->
-	<a href="https://www.facebook.com/"><i class="fab fa-facebook center"></i></a>
-	<a href="https://www.twitter.com"><i class="fab fa-twitter center"></i></a>
-	<a href="https://www.instagram.com"><i class="fab fa-instagram center"></i></a><br/></div>
+	<article class="subsciption">
+		<p class="large spaced middle">JOIN US!</p>
+			<form class="middle2"> 
+				<input type="text" required placeholder="Email.."><br/><br/>
+				<button class="middleButton" type="submit">Submit</button>
+			</form><br/>
+	<div class="middle3">
+	<a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+	<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
+	<a href="https://www.instagram.com"><i class="fab fa-instagram "></i></a><br/>
+	</div>
 	</article><br/><br/></section>
 	</main>
 	<!-- footer -->

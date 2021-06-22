@@ -5,10 +5,65 @@
 } 
 .header {
 	/* position: fixed; */
+	display: grid;
 	left: 0;
 	right:0;
 	top: 0;
+	margin-left: 170px;
+}
+ul.navBar {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: burlywood;
+	position: sticky;
+}
+li {
+	/* float: left; */
+	/* margin: 0 50px 0 100px; */
+}
+li a {
+	float: left;
+	display: block;
+	color: white;
 	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	margin-left: 100px;
+}
+li a:hover {
+	background-color: white;
+	color: burlywood;
+}
+.navBar .search-container {
+	float: right;
+}
+.navBar input[type="text"] {
+	padding: 6px;
+	margin-top: 8px;
+	border: none;
+	background: transparent;
+	color: white;
+	border-left: 1px solid white;
+}
+.navBar input[type="text"]:focus {
+	border: 3px solid white;
+	/* background: white; */
+}
+.navBar .search-container button {
+	float: right;
+	padding: 6px 10px;
+	margin-top: 8px;
+	margin-right: 16px;
+	border: none;
+	cursor: pointer;
+	background-color: white;
+	color: burlywood;
+	border-radius: 0%;
+}
+.navBar .search-container button:hover {
+	background-color: cornsilk;
 }
 .footer {
 	position: fixed;
@@ -93,7 +148,7 @@ a {
 }
 a:hover {
 	color: chocolate;
-	font-size: 20px;
+	/* font-size: 20px; */
 }
 a:active {
 	color: chocolate;
@@ -102,6 +157,12 @@ a:active {
 	position: relative;
 	text-align: center;
 	color: white;
+}
+.containerMain {
+	position: relative;
+	text-align: center;
+	color: white;
+	margin: 0;
 }
 .centered {
 	position: absolute;
@@ -279,8 +340,8 @@ a:active {
 .font {
 	font-family: 'Dancing Script', cursive;
 }
-.article {
-	background-color: cornsilk;
+.follow {
+	background-color: burlywood;
 }
 .emoji {font-size:100px; 
 		text-align: center;
@@ -292,11 +353,12 @@ div.a {
 .chocolate {
 	color: chocolate;
 }
-article.a {
-	border: 2px solid chocolate;
+article.subsciption {
+	border: 2px solid burlywood;
 	/* margin: 0px 0px 0px 1000px;	*/
 	margin-left: 1000px;
     padding-bottom: 30px;
+	display: inline-block;
 }
 .background {
 	display: block-inline;
@@ -336,11 +398,11 @@ article.a {
 	/* background-attachment: scroll; */
 /* } */
 .customer-service {
-	background-image: linear-gradient(cornsilk, chocolate, beige, cornsilk);
+	background-image: linear-gradient(cornsilk, burlywood, beige, cornsilk);
 }
 .form {
 	box-sizing: border-box;
-	border: 1px solid chocolate;
+	border: 1px solid burlywood;
 }
 select, textarea {
 	width: 90%;
@@ -404,4 +466,17 @@ label {
 }
 .center1 {
 	position: relative;
+}
+.middle {
+	margin: 10px 100px;
+}
+.middle2 {
+	margin: 10px 80px;
+}
+.middleButton {
+	margin: 0px 60px;
+}
+.middle3 {
+	margin: 0px 140px;
+	display: inline;
 }
