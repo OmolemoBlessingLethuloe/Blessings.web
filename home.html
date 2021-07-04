@@ -13,8 +13,17 @@
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 	<!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/fony-awesome.min.css"> -->
 </head>
-<body>
-	<header class="header" id="header"><img src="images/Blessings.jpg" alt="company logo" title="Blessings.inc" width="1000" height="128"></header>
+<body id="body"><!-- the modal should show upon opening the website -->
+	<div id="myModal" class="modal">
+	<!-- modal content -->
+	<div class="modal-container"><img src="images/modal.jpg" class="img-container"><span class="close" title="No thanks!">&times;</span>
+	<h1 class="modal-heading">Join the A list and receive R150 off</h1><p class="modal-text">Be the first to know about the latest trends, exclusive styles and sales.</p>
+	<input type="text" placeholder="Enter your email address.." name="subscribe">
+	<button class="button-modal">Subscribe</button>
+	<p class="modal-text-bottom">Terms and conditions apply. Valid on a purchase of R500 or more.</p></div>
+	</div>
+	</div>
+	<header onclick="myFunction()" class="header" id="header"><img src="images/Blessings.jpg" alt="company logo" title="Blessings.inc" width="1000" height="128"></header>
 	<br/>
 	<!-- navigation links -->
 		<ul class="navBar"> 
@@ -154,5 +163,6 @@
 	</main>
 	<!-- footer -->
 	<footer class="footer" id="footer">COPYRIGHT 2021, made with &#128151; by Omolemo Blessing Lethuloe. All Rights Reserved</footer>
+	<script src="script.js"></script>
 </body>
 </html>
