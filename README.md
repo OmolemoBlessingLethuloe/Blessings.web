@@ -1,11 +1,15 @@
 # Blessings
 
-Created a basic static e-commerce website as a task at the GirlCode Software Development Learnership. 
+Created a basic dynamic e-commerce website as a task at the GirlCode Software Development Learnership. 
+
 
 ## Project Screenshots
 
 ![Project Screenshot](images/readme-img.jpg)
 ![Project Screenshot](images/readme2-img.jpg)
+
+## Live Demo
+![Live Demo](https://rawcdn.githack.com/OmolemoBlessingLethuloe/Blessings.web/f222e5ae4646e5f260c511a447e7d526c0e4046e/home.html)
 
 ## Built With
 
