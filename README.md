@@ -9,7 +9,7 @@ Created a basic dynamic e-commerce website as a task at the GirlCode Software De
 ![Project Screenshot](images/readme2-img.jpg)
 
 ## Live Demo
-![Live Demo](https://rawcdn.githack.com/OmolemoBlessingLethuloe/Blessings.web/f222e5ae4646e5f260c511a447e7d526c0e4046e/home.html)
+![Live Demo](https://raw.githack.com/OmolemoBlessingLethuloe/Blessings.web/main/home.html)
 
 ## Built With
 
