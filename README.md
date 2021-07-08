@@ -34,12 +34,7 @@ git clone https://github.com/OmolemoBlessingLethuloe/Blessings.web
 cd Blessings.web
 ```
 
-Open ``` home.html ``` in your preferred browser
-Open ``` shop-all.html ``` in your preferred browser
-Open ``` aboutUs.html ``` in your preferred browser
-Open ``` our-brand.html ``` in your preferred browser
-Open ``` our-craft.html ``` in your preferred browser
-Open ``` contact-us.html ``` in your preferred browser
+Open ``` home.html ``` in your preferred browser and navigate your way through the website's different pages using: ``` shop-all.html ```; ``` aboutUs.html ```; ``` our-brand.html ```; ``` our-craft.html ```; and ``` contact-us.html ```.
 
 ## Authors
 OmolemoBlessingLethuloe
