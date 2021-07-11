@@ -28,22 +28,5 @@ window.onclick = function(event) {
     }
 }
 
-// Modal for gallery
-let galleryModal = document.getElementsByClassName("modal-gallery");
-
-// button that closes modal
-let spanGallery = document.getElementsByClassName("close-gallery")[0];
-
-var img = document.getElementsByClassName("img-modal");
-var modalImg = document.getElementById("img01");
-img.onclick = function(){
-  galleryModal.style.display = "block";
-  modalImg.src = this.src;
-}
-// when the user clicks the (x) on the modal, close the modal
-spanGallery.onclick = function() {
-    galleryModal.style.display = "none";
-}
-
 
 
