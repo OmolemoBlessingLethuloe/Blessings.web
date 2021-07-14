@@ -10,7 +10,7 @@ let span = document.getElementsByClassName("close")[0];
 function myFunction() {
     let x = document.getElementsByClassName("modal");
     if (x.style.display === "none") {
-        x.style.display = "block";
+        // x.style.display = "block";
     } else {
         x.style.display = "none";
     }
@@ -31,9 +31,11 @@ window.onclick = function(event) {
 // email validation
 function validate(mail) {
     if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(myForm.subscribe.value)) {
+    alert("You have successfully subscribed. Discount will be added at checkout as per terms and conditions!  \n You can enter another email address or exit and continue shopping!");
+    modal.style.display ="none";
     return (true);
+
 }
     alert("You have entered an invalid email address!");
     return (false);
 }
-

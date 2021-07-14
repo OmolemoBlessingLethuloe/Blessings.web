@@ -695,3 +695,25 @@ label {
 .validate {
 	margin-left: 360px;
 }
+#jumpToTop{
+	position: fixed;
+	bottom: 50px;
+	right: 20px;
+	font-size: 30px;
+	width: 50px;
+	background-color: #fff;
+	color:burlywood;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	padding: 0px;
+	border: 1px solid burlywood;
+	border-radius: 50%;
+	transition-duration: 0.2s;
+	transition-timing-function: ease-in-out; 
+	transition-property: background-color,color;
+}
+#jumpToTop:hover, #jumpToTop:focus{
+background-color: burlywood;
+color:#fff;
+}
