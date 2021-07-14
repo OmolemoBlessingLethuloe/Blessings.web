@@ -692,3 +692,6 @@ label {
 #belts:target {
 	background-image: linear-gradient(burlywood, cornsilk, burlywood, beige, cornsilk, burlywood);
 }
+.validate {
+	margin-left: 360px;
+}

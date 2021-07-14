@@ -28,5 +28,12 @@ window.onclick = function(event) {
     }
 }
 
-
+// email validation
+function validate(mail) {
+    if (/^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/.test(myForm.subscribe.value)) {
+    return (true);
+}
+    alert("You have entered an invalid email address!");
+    return (false);
+}
 
