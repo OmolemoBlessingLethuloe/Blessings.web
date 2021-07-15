@@ -30,8 +30,7 @@
 	<div class="icons"><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
 		<a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a>
 		<a href="https://www.instagram.com"><i class="fab fa-instagram "></i></a>
-		<a href="#"><i class="fab fa-user">Log In</i></a>
-
+		<a onclick="openForm()" href="#"><i class="fab fa-user">Log In</i></a>
 	</div>
 	<header class="header" id="header"><img src="images/Blessings.jpg" alt="company logo" title="Blessings.inc"></header>
 	<br/>
@@ -43,6 +42,19 @@
 			<li><a href="our-craft.html">Our Craft</a></li>
 			<li><a href="contact-us.html">Contact Me</a></li>
 		</ul><br/><br/><br/>
+	<div class="form-popup" id="myForm2">
+		<form action="/action_page.php" class="form-container">
+			<h1>Login</h1>
+			<label for="email"><b>Email</b></label>
+			<input type="text" placeholder="Enter email" name="email" required>
+
+			<label for="psw"><b>Password</b></label>
+			<input type="text" placeholder="Enter password" name="psw" required>
+
+			<button type="submit" class="login-btn">Login</button>
+			<button type="button" class="login-close" onclick="closeForm()">Close</button>
+		</form>
+	</div>
 	<!-- WRITING OVER IMAGE -->
 	<main>
 	<div class="containerMain">
@@ -54,28 +66,27 @@
 	<br/><br/><br/><section>
 	<p class="large text-centered spaced">BEST SELLERS</span></p>
 	<p class="large text-centered">----</p><br/><br/><br/>
-	<table>
-		<tr>
-		<th><div class="container-text"><img src="images/best1.png" alt="best1" class="best-size img-text"><div class="overlay">Quick View</div></div></th>
-		<th><div class="container-text"><img src="images/best2.png" alt="best2" class="best-size img-text"><div class="overlay">Quick View</div></div></th>
-		<th><div class="container-text"><img src="images/best3.png" alt="best3" class="best-size img-text"><div class="overlay">Quick View</div></div></th>
-		<th><div class="container-text"><img src="images/best4.png" alt="best4" class="best-size img-text"><div class="overlay">Quick View</div></div></th>
-		<th><div class="container-text"><img src="images/best5.png" alt="best5" class="best-size img-text"><div class="overlay">Quick View</div></div></th>
-		</tr>
-		<tr>
-			<td>Large Handbag - Light Pink</td>
-			<td>Drawstring Bucket Bag</td>
-			<td>Flap Bag</td>
-			<td>Crossbody bag</td>
-			<td>Large Handbag - Brown</td>
-		</tr>
-		<tr>
-			<td><i>R 500.00</i></td>
-			<td><i>R 470.00</i></td>
-			<td><i>R 320.00</i></td>
-			<td><i>R 300.00</i></td>
-			<td><i>R 500.00</i></td>
-		</tr>
+	<section class="images">
+		<div class="container-text"><img src="images/best1.png" alt="best1" class="best-size img-text"><div class="overlay">Quick View</div></div>
+		<div class="container-text"><img src="images/best2.png" alt="best2" class="best-size img-text"><div class="overlay">Quick View</div></div>
+		<div class="container-text"><img src="images/best3.png" alt="best3" class="best-size img-text"><div class="overlay">Quick View</div></div>
+		<div class="container-text"><img src="images/best4.png" alt="best4" class="best-size img-text"><div class="overlay">Quick View</div></div>
+		<div class="container-text"><img src="images/best5.png" alt="best5" class="best-size img-text"><div class="overlay">Quick View</div></div>
+	</section>
+	<section class="images text-centered">
+			<p>Large Handbag - Light Pink</p>
+			<p>Drawstring Bucket Bag</p>
+			<p>Flap Bag</p>
+			<p>Crossbody bag</p>
+			<p>Large Handbag - Brown</p>
+	</section>
+	<section class="images text-centered">
+			<p><i>R 500.00</i></p>
+			<p><i>R 470.00</i></p>
+			<p><i>R 320.00</i></p>
+			<p><i>R 300.00</i></p>
+			<p><i>R 500.00</i></p>
+	</section>
 	</table><br/></br></br><br/><br/><br/>
 	<a href="shop-all.html" href="#bags"><button type="submit" class="button2">Shop All Bags</button></a>
 	<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

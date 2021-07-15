@@ -39,3 +39,12 @@ function validate(mail) {
     alert("You have entered an invalid email address!");
     return (false);
 }
+
+// login pop-up
+function openForm(){
+    document.getElementById("myForm2").style.display="block";
+}
+
+function closeForm(){
+    document.getElementById("myForm2").style.display="none";
+}
