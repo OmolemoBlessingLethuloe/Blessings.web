@@ -249,6 +249,128 @@ a:active {
 	letter-spacing: 3px;
 	transform: translate(-50%, -15%);
 }
+.show1 {
+	background-image: url("images/purse1.png");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 700px 600px;
+	width: 650px;
+	height: 500px;
+	grid-area: show1;
+}
+.show2 {
+	width: 650px;
+	height: 500px;
+	grid-area: show2;
+}
+.show3 {
+	width: 650px;
+	height: 500px;
+	grid-area: show3;
+}
+.show4 {
+	background-image: url("images/belt1.png");
+	background-attachment: fixed;
+	background-repeat: repeat;
+	background-size: 700px 600px;
+	width: 650px;
+	height: 500px;
+	grid-area: show4;
+}
+div.showcase {
+	display: grid;
+	grid-template-areas: "show1 show2"
+	"show3 show4";
+	row-gap: 10px;
+	column-gap: 0px;
+	justify-content: space-around;
+}
+.box1 {
+	width: 650px;
+	height: 500px;
+	grid-area: box1;
+}
+.box2 {
+	background-image: url("images/brand1.jpg");
+	background-attachment: fixed;
+	/* background-position-y: center; */
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 650px;
+	height: 500px;
+	grid-area: box2;
+}
+.box3 {
+	background-image: url("images/brand2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 650px;
+	height: 500px;
+	grid-area: box3;
+}
+.box4 {
+	width: 650px;
+	height: 500px;
+	grid-area: box4;
+}
+div.brand {
+	display: grid;
+	grid-template-areas: "box1 box2"
+	"box3 box4";
+	row-gap: 10px;
+	column-gap: 0px;
+	justify-content: space-around;
+}
+.craft1 {
+	width: 650px;
+	height: 500px;
+	grid-area: craft1;	
+}
+.craft2 {
+	background-image: url("images/process1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 650px;
+	height: 500px;
+	grid-area: craft2;	
+}
+.craft3 {
+	background-image: url("images/process2.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	width: 650px;
+	height: 500px;
+	grid-area: craft3;	
+}
+.craft4 {
+	width: 650px;
+	height: 500px;
+	grid-area: craft4;	
+}
+.craft5 {
+	width: 650px;
+	height: 500px;
+	grid-area: craft5;	
+}
+.craft6 {
+	background-image: url("images/process3.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 650px;
+	height: 500px;
+	grid-area: craft6;	
+}
+div.craft {
+	display: grid;
+	grid-template-areas: "craft1 craft2"
+	"craft3 craft4"
+	"craft5 craft6";
+	row-gap: 10px;
+	column-gap: 0px;
+	justify-content: space-around;
+}
 .button {
   background-color: transparent;
   border: 1px solid;
@@ -867,3 +989,4 @@ section.images2 {
 .form-container .btn:hover, .open-button:hover {
 	opacity: 1;
   }
+
